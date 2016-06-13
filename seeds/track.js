@@ -6,7 +6,7 @@ exports.seed = function(knex, Promise) {
 
     // Inserts seed entries
     knex('track').insert({id: 1, name: 'Strawberry Fields', artist_id: 1}),
-    knex('track').insert({id: 2, name: 'Soft Bulletin', artist_id: 2})
-    // knex('track').insert({id: 3, name: 'Oops I Did It Again'})
+    knex('track').insert({id: 2, name: 'Soft Bulletin', artist_id: 2}),
+    knex('track').insert({id: 3, name: 'Oops I Did It Again', artist_id: 3})
   );
 };
